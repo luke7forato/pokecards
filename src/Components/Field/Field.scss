@@ -1,0 +1,15 @@
+@import '../../variables';
+
+
+.Field {
+    width: $base-size * 8;
+    margin-left: $base-size / 5;
+    margin-right: $base-size / 5;
+    margin-top: $base-size;
+    margin-bottom: $base-size;
+    background-color: $background-tertiary;
+    @include shadow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,122 @@
+//colors
+$primary-color: #FF0000;
+$secondary-color: #3B4CCA;
+$tertiary-color: #FFDE00;
+
+$primary-color-dark: #CC0000;
+$tertiary-color-dark: #B3A125;
+
+$background-primary: #272727;
+$background-secondary: #697385;
+$background-tertiary: #f1f1f1;
+$background-fourthary: #393f49;
+
+$checkbox-primary: #3B4CCA;
+$checkbox-secondary: #FFDE00;
+$checkbox-tertiary: #f1f1f1;
+
+//type colors
+$normal: #ffffff;
+$poison: #7100a5;
+$psychic: #ff00b3;
+$grass: #3cff00;
+$ground: #92631c;
+$ice: #8cd3f0;
+$fire: #da4936;
+$rock: #553a21;
+$dragon: #6200ff;
+$water: #4276d6;
+$bug: #54d674;
+$dark: #4b4b4b;
+$fighting: #794101;
+$ghost: #2c005f;
+$steel: #858585;
+$flying: #00b7ff;
+$electric: #ffee00;
+$fairy: #ff00ea;
+
+
+$border-primary: #272727;
+$border-secondary: #3B4CCA;
+
+//fonts
+$poppins: 'Poppins', sans-serif;
+$lato: 'Lato', sans-serif;
+
+@mixin poppins($size, $color: #272727) {
+    font-family: $poppins;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin lato($size, $color) {
+    font-family: $lato;
+    font-size: $size;
+}
+
+
+//font colors
+$font-primary: #272727;
+$font-secondary: #f1f1f1;
+
+//shadow
+@mixin shadow-translate($color: #272727) {
+    -webkit-box-shadow: 10px 10px 0px 0px $color;
+    -moz-box-shadow: 10px 10px 0px 0px $color;
+    box-shadow: 10px 10px 0px 0px $color;
+
+    &:hover {
+        -webkit-box-shadow: 5px 5px 0px 0px $color;
+        -moz-box-shadow: 5px 5px 0px 0px $color;
+        box-shadow: 5px 5px 0px 0px $color;
+        translate: 5px 5px;
+    }
+
+}
+
+@mixin shadow-translate-opposite($color: #272727) {
+    -webkit-box-shadow: 0px 0px 0px 0px $color;
+    -moz-box-shadow: 0px 0px 0px 0px $color;
+    box-shadow: 0px 0px 0px 0px $color;
+
+    &:hover {
+        -webkit-box-shadow: 10px 10px 0px 0px $color;
+        -moz-box-shadow: 10px 10px 0px 0px $color;
+        box-shadow: 10px 10px 0px 0px $color;
+        translate: -10px -10px;
+    }
+
+}
+
+
+@mixin shadow-translate-small($color: #272727) {
+    -webkit-box-shadow: 5px 5px 0px 0px $color;
+    -moz-box-shadow: 5px 5px 0px 0px $color;
+    box-shadow: 5px 5px 0px 0px $color;
+
+    &:hover {
+        -webkit-box-shadow: 3px 3px 0px 0px $color;
+        -moz-box-shadow: 3px 3px 0px 0px $color;
+        box-shadow: 3px 3px 0px 0px $color;
+        translate: 3px 3px;
+    }
+
+}
+
+
+@mixin shadow-small($color: #272727) {
+    -webkit-box-shadow: 2px 2px 0px 0px $color;
+    -moz-box-shadow: 2px 2px 0px 0px $color;
+    box-shadow: 2px 2px 0px 0px $color;
+    translate: 3px 3px;
+}
+
+
+@mixin shadow($color: #272727) {
+    -webkit-box-shadow: 10px 10px 0px 0px $color;
+    -moz-box-shadow: 10px 10px 0px 0px $color;
+    box-shadow: 10px 10px 0px 0px $color;
+}
+
+//sizes
+$base-size: 50px;

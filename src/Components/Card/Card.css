@@ -1,0 +1,158 @@
+.Card {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #393f49;
+  border: 2px solid #f1f1f1;
+  width: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
+  margin: 25px;
+  -webkit-box-shadow: 0px 0px 0px 0px #f1f1f1;
+  box-shadow: 0px 0px 0px 0px #f1f1f1;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+.Card:hover {
+  -webkit-box-shadow: 10px 10px 0px 0px #f1f1f1;
+  box-shadow: 10px 10px 0px 0px #f1f1f1;
+  translate: -10px -10px;
+}
+
+.Card img {
+  height: auto;
+  width: 90%;
+  background-color: #f1f1f1;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.Card .span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.Card h2 {
+  margin: auto;
+}
+
+.Card span {
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2px;
+  margin: 2px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #272727;
+}
+
+.Card .normal {
+  background-color: #ffffff;
+  color: #272727;
+}
+
+.Card .poison {
+  background-color: #7100a5;
+  color: #f1f1f1;
+}
+
+.Card .psychic {
+  background-color: #ff00b3;
+  color: #272727;
+}
+
+.Card .grass {
+  background-color: #3cff00;
+  color: #272727;
+}
+
+.Card .ground {
+  background-color: #92631c;
+  color: #f1f1f1;
+}
+
+.Card .ice {
+  background-color: #8cd3f0;
+  color: #272727;
+}
+
+.Card .fire {
+  background-color: #da4936;
+  color: #f1f1f1;
+}
+
+.Card .rock {
+  background-color: #553a21;
+  color: #f1f1f1;
+}
+
+.Card .dragon {
+  background-color: #6200ff;
+  color: #f1f1f1;
+}
+
+.Card .water {
+  background-color: #4276d6;
+  color: #f1f1f1;
+}
+
+.Card .bug {
+  background-color: #54d674;
+  color: #272727;
+}
+
+.Card .dark {
+  background-color: #4b4b4b;
+  color: #f1f1f1;
+}
+
+.Card .fighting {
+  background-color: #794101;
+  color: #f1f1f1;
+}
+
+.Card .ghost {
+  background-color: #2c005f;
+  color: #f1f1f1;
+}
+
+.Card .steel {
+  background-color: #858585;
+  color: #272727;
+}
+
+.Card .flying {
+  background-color: #00b7ff;
+  color: #272727;
+}
+
+.Card .electric {
+  background-color: #ffee00;
+  color: #272727;
+}
+
+.Card .fairy {
+  background-color: #ff00ea;
+  color: #272727;
+}
+/*# sourceMappingURL=Card.css.map */

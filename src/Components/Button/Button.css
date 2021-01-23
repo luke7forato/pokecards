@@ -1,0 +1,42 @@
+button {
+  height: 50px;
+  margin: 10px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #272727;
+  border: none;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+.unactive {
+  -webkit-box-shadow: 5px 5px 0px 0px #697385;
+  box-shadow: 5px 5px 0px 0px #697385;
+}
+
+.unactive:hover {
+  -webkit-box-shadow: 3px 3px 0px 0px #697385;
+  box-shadow: 3px 3px 0px 0px #697385;
+  translate: 3px 3px;
+}
+
+.active {
+  -webkit-box-shadow: 2px 2px 0px 0px #697385;
+  box-shadow: 2px 2px 0px 0px #697385;
+  translate: 3px 3px;
+  background-color: #FFDE00;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #272727;
+}
+/*# sourceMappingURL=Button.css.map */

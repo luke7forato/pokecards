@@ -1,0 +1,26 @@
+@import '../../variables';
+
+
+
+button {
+  height: $base-size;
+  margin: 10px;
+  width: $base-size * 3;
+  display: flex;
+  background-color: $background-primary;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  @include poppins(16px, $font-secondary);
+}
+
+.unactive {
+  @include shadow-translate-small($background-secondary);
+}
+
+.active {
+  @include shadow-small ($background-secondary);
+  background-color: $tertiary-color;
+  @include poppins(16px, $font-primary);
+}

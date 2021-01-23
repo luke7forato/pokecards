@@ -1,0 +1,134 @@
+@import '../../variables';
+
+.Card {
+    height: $base-size * 6;
+    display: flex;
+    background-color: $background-fourthary;
+    border: 2px solid $background-tertiary;
+    width: $base-size * 4;
+    flex-flow: wrap column;
+    margin: $base-size / 2;
+    @include shadow-translate-opposite($background-tertiary);
+    transition-duration: 0.2s;
+    @include poppins(16px, $font-secondary);
+
+    img {
+        height: auto;
+        width: 90%;
+        background-color: $background-tertiary;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .span {
+        display: flex;
+        margin: 10px;
+        justify-content: flex-end;
+    }
+
+    h2 {
+        margin: auto;
+    }
+
+    span {
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        margin: 2px;
+        @include poppins(14px, $font-primary);
+
+    }
+
+    .normal {
+        background-color: $normal;
+        color: $font-primary;
+
+    }
+
+    .poison {
+        background-color: $poison;
+        color: $font-secondary;
+    }
+
+    .psychic {
+        background-color: $psychic;
+        color: $font-primary;
+    }
+
+    .grass {
+        background-color: $grass;
+        color: $font-primary;
+    }
+
+    .ground {
+        background-color: $ground;
+        color: $font-secondary;
+    }
+
+    .ice {
+        background-color: $ice;
+        color: $font-primary;
+    }
+
+    .fire {
+        background-color: $fire;
+        color: $font-secondary;
+    }
+
+    .rock {
+        background-color: $rock;
+        color: $font-secondary;
+    }
+
+    .dragon {
+        background-color: $dragon;
+        color: $font-secondary;
+    }
+
+    .water {
+        background-color: $water;
+        color: $font-secondary;
+    }
+
+    .bug {
+        background-color: $bug;
+        color: $font-primary;
+    }
+
+    .dark {
+        background-color: $dark;
+        color: $font-secondary;
+    }
+
+    .fighting {
+        background-color: $fighting;
+        color: $font-secondary;
+    }
+
+    .ghost {
+        background-color: $ghost;
+        color: $font-secondary;
+    }
+
+    .steel {
+        background-color: $steel;
+        color: $font-primary;
+    }
+
+    .flying {
+        background-color: $flying;
+        color: $font-primary;
+    }
+
+    .electric {
+        background-color: $electric;
+        color: $font-primary;
+    }
+
+    .fairy {
+        background-color: $fairy;
+        color: $font-primary;
+    }
+}

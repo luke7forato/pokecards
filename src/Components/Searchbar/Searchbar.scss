@@ -1,0 +1,11 @@
+@import '../../variables';
+
+.Searchbar {
+    background-color: $primary-color-dark;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
